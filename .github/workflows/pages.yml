@@ -1,0 +1,60 @@
+name: Publier Canopée
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  import-source:
+    if: github.event_name == 'push' && github.event.head_commit.message == 'Activer la publication de Canopée'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      revision: ${{ steps.import.outputs.revision }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Installer les fichiers sources
+        id: import
+        shell: bash
+        run: |
+          if [ ! -d site ]; then
+            python3 import_public_site.py
+            git add -- site
+            git rm -- canopee-assets.json canopee-overlay.tar.gz import_public_site.py
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Installer les ressources de Canopée"
+            git push origin HEAD:main
+          fi
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  publish:
+    needs: import-source
+    if: ${{ !cancelled() && (needs.import-source.result == 'success' || needs.import-source.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ needs.import-source.outputs.revision || github.sha }}
+      - uses: actions/configure-pages@v5
+      - name: Préparer les pages
+        env:
+          PAGES_REPOSITORY: ${{ github.event.repository.name }}
+        run: python3 build_pages.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deployment
