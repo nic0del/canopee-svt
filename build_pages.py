@@ -28,7 +28,7 @@ def add_base(text):
     text = home_path.sub(lambda match: match["start"] + BASE + "/", text)
     revision = os.environ.get("GITHUB_SHA", "")[:12]
     if revision:
-        scripts = r"(?:content|new-public|dynamic|app|administration/admin|administration/creation/create)\.js"
+        scripts = r"(?:account|content|new-public|dynamic|app|administration/admin|administration/creation/create)\.js"
         text = re.sub(
             rf"({re.escape(BASE)}/{scripts})(?=[\"'])",
             lambda match: f"{match[1]}?v={revision}",

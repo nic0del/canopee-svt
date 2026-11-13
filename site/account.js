@@ -38,10 +38,33 @@
     if(resource) write(answerKey(),answerCache);
     write(favoriteKey(),favoriteCache);
   }
+  function bindCorrection(input) {
+    const block=input.closest('.answer-block');
+    if(!block || block.querySelectorAll('[data-answer]').length!==1)return;
+    const details=[...block.querySelectorAll('details.model-answer'),block.nextElementSibling]
+      .find(node=>node?.matches('details.model-answer') &&
+        /^(Afficher un élément de réponse|Afficher la correction)$/i.test(node.querySelector('summary')?.textContent.trim()||''));
+    if(!details)return;
+    const summary=details.querySelector('summary');
+    const label=summary.querySelector('[data-cms-block]')||summary;
+    function update(){
+      const answered=Boolean(input.value.trim());
+      if(!answered)details.open=false;
+      summary.setAttribute('aria-disabled',String(!answered));
+      label.textContent=answered?(details.open?'Masquer la correction':'Afficher la correction'):'Écris ta réponse pour afficher la correction';
+    }
+    summary.addEventListener('click',event=>{if(!input.value.trim())event.preventDefault()});
+    details.addEventListener('toggle',()=>{
+      if(details.open&&!input.value.trim())details.open=false;
+      if(input.value.trim())label.textContent=details.open?'Masquer la correction':'Afficher la correction';
+    });
+    return update;
+  }
   function updateFields() {
-    for(const [id,{input,status}] of fields) {
+    for(const [id,{input,status,updateCorrection}] of fields) {
       const row=answerCache[id];
       if(document.activeElement!==input&&input.value!==(row?.body||'')) input.value=row?.body||'';
+      updateCorrection?.();
       status.textContent=storageError ? 'Sauvegarde locale indisponible : copiez votre réponse avant de quitter.'
         : !user ? 'Enregistré sur cet appareil uniquement'
         : row?.dirty ? (networkError?'Connexion interrompue · conservé sur cet appareil, synchronisation à réessayer.':'Enregistré sur cet appareil · sauvegarde en ligne en cours…')
@@ -103,9 +126,9 @@
     return true;
   }
   const api=window.Canopee={client,ready:null,get user(){return user},getAnswer:id=>answerCache[id]?.body||'',setAnswer,setFavorite,getFavorites,sync,
-    bindAnswer(input,status){fields.set(input.dataset.answer,{input,status});input.value=api.getAnswer(input.dataset.answer);updateFields();
-      input.addEventListener('input',()=>setAnswer(input.dataset.answer,input.value));
-      input.closest('.answer-block').querySelector('.clear-answer')?.addEventListener('click',()=>{setAnswer(input.dataset.answer,'');input.value='';input.focus()});}
+    bindAnswer(input,status){const updateCorrection=bindCorrection(input);fields.set(input.dataset.answer,{input,status,updateCorrection});input.value=api.getAnswer(input.dataset.answer);updateFields();
+      input.addEventListener('input',()=>{setAnswer(input.dataset.answer,input.value);updateCorrection?.()});
+      input.closest('.answer-block').querySelector('.clear-answer')?.addEventListener('click',()=>{input.value='';setAnswer(input.dataset.answer,'');updateCorrection?.();input.focus()});}
   };
   const panel=document.createElement('dialog');panel.className='account-panel';panel.id='personal-workspace';panel.setAttribute('aria-labelledby','account-title');
   panel.innerHTML=`<button type="button" class="account-close" aria-label="Fermer mon espace">×</button>
