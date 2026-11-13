@@ -25,7 +25,16 @@ home_path = re.compile(r"""(?P<start>(?:href\s*=\s*|\.href\s*=\s*)["'])/(?=[#?"'
 
 def add_base(text):
     text = root_path.sub(lambda match: match["start"] + BASE + "/", text)
-    return home_path.sub(lambda match: match["start"] + BASE + "/", text)
+    text = home_path.sub(lambda match: match["start"] + BASE + "/", text)
+    revision = os.environ.get("GITHUB_SHA", "")[:12]
+    if revision:
+        scripts = r"(?:content|new-public|dynamic|app|administration/admin|administration/creation/create)\.js"
+        text = re.sub(
+            rf"({re.escape(BASE)}/{scripts})(?=[\"'])",
+            lambda match: f"{match[1]}?v={revision}",
+            text,
+        )
+    return text
 
 
 def build():
