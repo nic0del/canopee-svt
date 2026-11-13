@@ -44,9 +44,32 @@
    }
   }
   if(!PUBLICATION_ENABLED)return;
+  const {resourceVisibility}=await import('/new-public.js');
+  const hidden=await resourceVisibility();
+  const resourcePath=new URL('/documents/',location.origin).pathname;
+  for(const link of document.querySelectorAll('a[href]')){
+   if(link.origin!==location.origin||!link.pathname.startsWith(resourcePath))continue;
+   const id=link.pathname.slice(resourcePath.length).split('/')[0];
+   if(hidden.has(id))link.remove();
+  }
+  if(hidden.has(rid)){
+   const article=document.querySelector('article.lesson-content')||document.querySelector('main');
+   const heading=document.querySelector('h1');
+   if(heading)heading.textContent='Fiche retirée';
+   document.title='Fiche retirée · Canopée';
+   if(article){
+    const message=document.createElement('p');
+    message.className='content-notice';
+    message.textContent='Cette fiche n’est plus disponible dans la bibliothèque.';
+    article.replaceChildren(message);
+   }
+   const robots=document.createElement('meta');
+   robots.name='robots';robots.content='noindex';document.head.append(robots);
+   return;
+  }
   const {data,error}=await client.from('canopee_resource_publications').select('resource_id,content,state,revision,updated_at');
   if(error)return; // An unavailable CMS never prevents reading the original static lesson.
-  for(const row of data||[]){setTitle(row);if(row.resource_id===rid)await apply(row)}
+  for(const row of data||[]){if(row.state!=='published'||hidden.has(row.resource_id))continue;setTitle(row);if(row.resource_id===rid)await apply(row)}
  }
  window.CanopeeContent={apply};boot().catch(()=>{});
  if(window.Canopee)window.Canopee.ready.then(async()=>{
