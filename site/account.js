@@ -38,16 +38,86 @@
     if(resource) write(answerKey(),answerCache);
     write(favoriteKey(),favoriteCache);
   }
+  const feedbackStopWords = new Set((
+    'alors ainsi aussi autre autres aucun aucune avec avoir cette comme comment dans davantage depuis donc dont elle elles encore entre est etaient etait etre eux fait faut fois hors jusque leur leurs lors mais meme moins notre nous par parce parmi pas pendant peut peuvent plus pour pourquoi quand quel quelle quels quelles selon sera serait sont sous souvent toute toutes tous tres trouve trouver une vers voici votre vous les des ses ces aux sur qui que quoi lui ils dix deux trois premier premiere plusieurs indique indiquer permet permettent permettre reponse question document documents resultat resultats exemple observes observe observer'
+  ).split(' '));
+
+  function feedbackWords(text) {
+    const normalized = text.toLocaleLowerCase('fr').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const words = new Map();
+    for (const word of normalized.match(/[a-z]{3,}/g) || []) {
+      if (feedbackStopWords.has(word)) continue;
+      const key = word.length > 5 ? word.replace(/(?:es|s)$/, '') : word;
+      if (!words.has(key)) words.set(key, word);
+    }
+    return words;
+  }
+
+  function bindFeedback(input, block, correction) {
+    if ([...block.children].some(node => node.matches('button') && node.textContent === 'Vérifier ma réponse')) return;
+    if (block.querySelectorAll('[data-answer]').length !== 1) return;
+
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = 'Vérifier ma réponse';
+    const result = document.createElement('div');
+    result.className = 'answer-feedback';
+    result.hidden = true;
+    result.setAttribute('role', 'status');
+    if (correction?.parentElement === block) correction.before(button, result);
+    else block.append(button, result);
+
+    function render() {
+      const response = input.value.trim();
+      result.replaceChildren();
+      result.hidden = false;
+      if (!/[\p{L}\p{N}]/u.test(response)) {
+        result.textContent = 'Écris une réponse pour obtenir un retour.';
+        return;
+      }
+      if (!correction) {
+        result.textContent = 'Réponse saisie. Cette question n’a pas de corrigé associé. Relis la consigne et vérifie que tu réponds à chaque partie avec les données ou les arguments demandés.';
+        return;
+      }
+      const model = [...correction.children]
+        .filter(node => node.tagName !== 'SUMMARY').map(node => node.textContent).join(' ');
+      const expected = feedbackWords(model);
+      const found = feedbackWords(response);
+      const overlap = [...expected.keys()].filter(word => found.has(word));
+      const prompt = document.createElement('p');
+      if (!expected.size) {
+        prompt.textContent = 'Compare directement ta démarche avec le corrigé de la fiche.';
+      } else if (overlap.length) {
+        prompt.textContent = 'Termes du corrigé repérés dans ta réponse : ' + overlap.map(word => found.get(word)).join(', ') + '. Vérifie que tu les relies correctement dans ton raisonnement.';
+      } else {
+        prompt.textContent = 'Je ne retrouve pas de termes distinctifs du corrigé dans ta réponse. Vérifie ton raisonnement ou compare les formulations avec le corrigé.';
+      }
+      const note = document.createElement('p');
+      note.textContent = 'Ce retour indicatif s’appuie sur le vocabulaire. Une formulation différente peut être juste, et un terme présent peut être mal employé.';
+      result.append(prompt, note);
+    }
+    button.addEventListener('click', render);
+    let lastValue = input.value;
+    return () => {
+      if (input.value === lastValue) return;
+      lastValue = input.value;
+      result.hidden = true;
+      result.replaceChildren();
+    };
+  }
+
   function bindCorrection(input) {
     const block=input.closest('.answer-block');
     if(!block || block.querySelectorAll('[data-answer]').length!==1)return;
     const details=[...block.querySelectorAll('details.model-answer'),block.nextElementSibling]
       .find(node=>node?.matches('details.model-answer') &&
         /^(Afficher un élément de réponse|Afficher la correction)$/i.test(node.querySelector('summary')?.textContent.trim()||''));
-    if(!details)return;
+    const updateFeedback=bindFeedback(input,block,details);
+    if(!details)return updateFeedback;
     const summary=details.querySelector('summary');
     const label=summary.querySelector('[data-cms-block]')||summary;
     function update(){
+      updateFeedback?.();
       const answered=Boolean(input.value.trim());
       if(!answered)details.open=false;
       summary.setAttribute('aria-disabled',String(!answered));
