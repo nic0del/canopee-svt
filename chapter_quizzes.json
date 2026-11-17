@@ -1,0 +1,1037 @@
+{
+  "/seconde/chapitre-1/": [
+    [
+      "Neurone",
+      "Une cellule porte un axone et des dendrites.",
+      "Cette organisation facilite la transmission d’un message nerveux.",
+      "Toutes les cellules transmettent des messages grâce à un axone.",
+      "La forme seule ne renseigne pas sur le sens de transmission du message."
+    ],
+    [
+      "Cellule musculaire",
+      "Une cellule allongée contient de nombreuses structures contractiles.",
+      "Ces structures participent au raccourcissement de la cellule.",
+      "Les structures contractiles servent à réaliser la photosynthèse.",
+      "La présence de structures contractiles ne suffit pas à mesurer la force produite."
+    ],
+    [
+      "Tissu",
+      "Des cellules semblables sont regroupées dans une feuille.",
+      "Des cellules organisées ensemble peuvent assurer une fonction commune.",
+      "Une feuille entière est une seule cellule spécialisée.",
+      "Un organe peut contenir plusieurs tissus différents."
+    ]
+  ],
+  "/chapitres/02-chapitre-02-adn-et-specialisation-cellulaire/": [
+    [
+      "Expression des gènes",
+      "Deux cellules partagent le même ADN mais produisent des protéines différentes.",
+      "Les cellules peuvent exprimer des ensembles de gènes différents.",
+      "Chaque cellule spécialisée perd tous les gènes inutilisés.",
+      "La présence d’un gène ne prouve pas qu’il est exprimé."
+    ],
+    [
+      "Séquence d’ADN",
+      "Sur deux fragments alignés, une base diffère à une position.",
+      "La différence observée porte sur la séquence nucléotidique.",
+      "Une différence de base implique forcément la disparition du chromosome entier.",
+      "Une différence de séquence ne prédit pas à elle seule un effet observable."
+    ],
+    [
+      "Spécialisation cellulaire",
+      "Une fibre musculaire produit des protéines contractiles en abondance.",
+      "Les protéines produites contribuent à la fonction spécialisée.",
+      "Les cellules d’un organisme produisent toujours exactement les mêmes protéines.",
+      "La quantité de protéines peut varier selon l’état de la cellule."
+    ]
+  ],
+  "/chapitres/03-chapitre-03-metabolisme-cellulaire/": [
+    [
+      "Respiration cellulaire",
+      "Le dioxygène diminue dans une suspension de cellules vivantes par rapport au témoin.",
+      "Les cellules ont consommé du dioxygène dans ces conditions.",
+      "La diminution du dioxygène démontre une production de dioxygène.",
+      "Il faut vérifier que le montage témoin est comparable."
+    ],
+    [
+      "Photosynthèse",
+      "Une plante chlorophyllienne éclairée prélève du dioxyde de carbone.",
+      "L’assimilation de carbone est compatible avec la photosynthèse.",
+      "Le carbone de la matière organique provient de la lumière.",
+      "La respiration peut se poursuivre en même temps."
+    ],
+    [
+      "Métabolisme",
+      "Une cellule change ses échanges lorsqu’on modifie le substrat disponible.",
+      "Les transformations cellulaires dépendent des conditions du milieu.",
+      "Une cellule effectue toujours les mêmes échanges.",
+      "Une mesure isolée ne permet pas d’identifier toutes les réactions en jeu."
+    ]
+  ],
+  "/chapitres/04-chapitre-04-les-echelles-de-la-biodiversite/": [
+    [
+      "Diversité génétique",
+      "Deux individus de la même espèce portent des versions différentes d’un gène.",
+      "L’observation illustre une diversité au sein d’une espèce.",
+      "Des allèles différents suffisent à définir deux espèces.",
+      "La diversité génétique ne se limite pas aux caractères visibles."
+    ],
+    [
+      "Diversité des espèces",
+      "Un inventaire recense oiseaux, insectes et plantes de plusieurs espèces.",
+      "L’inventaire décrit une composante de la biodiversité spécifique.",
+      "Un inventaire d’espèces mesure directement la diversité des allèles.",
+      "Le résultat dépend de l’effort d’observation."
+    ],
+    [
+      "Diversité des écosystèmes",
+      "Une région comprend une mare, une forêt et une prairie.",
+      "Les trois milieux illustrent la diversité des écosystèmes.",
+      "Un écosystème désigne uniquement l’ensemble des animaux présents.",
+      "Chaque milieu associe organismes et conditions physiques."
+    ]
+  ],
+  "/chapitres/05-chapitre-05-la-biodiversite-evolue-au-cours-du-temps/": [
+    [
+      "Apparition d’espèces",
+      "De nouveaux types de fossiles sont observés dans les couches récentes d’une série.",
+      "La composition des assemblages fossiles change avec le temps.",
+      "Tous les fossiles ont exactement le même âge.",
+      "Le premier fossile trouvé donne un âge minimal de présence, pas forcément l’origine exacte."
+    ],
+    [
+      "Extinction",
+      "Un groupe abondant cesse d’apparaître dans plusieurs séries de couches bien datées.",
+      "Une disparition étendue des fossiles peut indiquer une extinction.",
+      "Un fossile absent d’un seul prélèvement prouve une extinction mondiale.",
+      "L’enregistrement fossile est incomplet et varie selon les milieux."
+    ],
+    [
+      "Crise biologique",
+      "De nombreux groupes disparaissent dans un intervalle géologique bref.",
+      "La chute conjointe de diversité est compatible avec une crise biologique.",
+      "Toute variation locale du nombre d’espèces définit une crise mondiale.",
+      "Il faut comparer des données de plusieurs groupes et régions."
+    ]
+  ],
+  "/chapitres/06-chapitre-04-procreation-et-sexualite-humaine/": [
+    [
+      "Fécondation",
+      "Un spermatozoïde et un ovocyte fusionnent.",
+      "La fusion forme une cellule-œuf.",
+      "La fécondation est la libération d’un ovocyte.",
+      "La fécondation et l’implantation sont des étapes distinctes."
+    ],
+    [
+      "Ovulation",
+      "Un ovocyte est libéré par un ovaire.",
+      "Un gamète devient disponible pour une éventuelle fécondation.",
+      "L’ovulation a lieu dans l’utérus.",
+      "La date de l’ovulation peut varier entre cycles."
+    ],
+    [
+      "Prévention",
+      "Un préservatif constitue une barrière lors d’un rapport.",
+      "Il peut réduire le risque de grossesse et de nombreuses IST.",
+      "Toutes les contraceptions protègent également contre les IST.",
+      "L’efficacité d’une méthode dépend notamment de ses conditions d’utilisation."
+    ]
+  ],
+  "/chapitres/07-chapitre-05-microorganismes-et-sante/": [
+    [
+      "Microbiote",
+      "Des micro-organismes vivent normalement à la surface de la peau.",
+      "La présence de microbes n’implique pas à elle seule une maladie.",
+      "Tout micro-organisme présent sur la peau provoque une infection.",
+      "Le site et l’état de santé influencent l’interprétation."
+    ],
+    [
+      "Contamination",
+      "Un micro-organisme franchit une barrière de l’organisme.",
+      "Cette entrée peut précéder une éventuelle infection.",
+      "Entrer dans l’organisme et s’y multiplier décrivent exactement le même phénomène.",
+      "La contamination ne suffit pas toujours à déclencher une infection."
+    ],
+    [
+      "Infection",
+      "Un agent infectieux se multiplie dans l’organisme.",
+      "La multiplication correspond à une infection.",
+      "Une infection se définit uniquement par un résultat de culture externe.",
+      "Une infection peut être asymptomatique."
+    ]
+  ],
+  "/chapitres/08-chapitre-01-agents-pathogenes-et-maladies-vectorielles/": [
+    [
+      "Agent pathogène",
+      "Dans le paludisme, un parasite se développe chez l’hôte humain.",
+      "Le parasite est à l’origine de la maladie.",
+      "Le moustique est le parasite responsable du paludisme.",
+      "La présence du parasite et la gravité des symptômes sont deux informations différentes."
+    ],
+    [
+      "Vecteur",
+      "Un moustique transmet un parasite d’un hôte à un autre.",
+      "Le moustique participe à la transmission en tant que vecteur.",
+      "Le vecteur fabrique l’agent pathogène à partir de rien.",
+      "Tous les moustiques ne transmettent pas le même agent."
+    ],
+    [
+      "Prévention vectorielle",
+      "Une moustiquaire limite les contacts nocturnes avec certains moustiques.",
+      "Réduire les piqûres réduit les occasions de transmission.",
+      "La moustiquaire traite une infection existante.",
+      "Cette mesure agit sur une voie de transmission précise."
+    ]
+  ],
+  "/chapitres/09-chapitre-02-microbiote-humain-et-sante/": [
+    [
+      "Microbiote intestinal",
+      "Des micro-organismes transforment certains composés non digérés.",
+      "Le microbiote participe à la transformation de composés alimentaires.",
+      "Tous les microbes intestinaux sont des agents pathogènes.",
+      "Les fonctions diffèrent selon les espèces présentes."
+    ],
+    [
+      "Diversité microbienne",
+      "Deux personnes présentent des assemblages microbiens différents.",
+      "La composition du microbiote varie entre individus.",
+      "Tous les individus ont exactement les mêmes espèces microbiennes.",
+      "Un prélèvement ne décrit qu’un lieu et un moment."
+    ],
+    [
+      "Causalité",
+      "Une étude observe un microbiote différent chez des personnes malades.",
+      "Une association existe dans l’échantillon étudié.",
+      "Une association suffit à démontrer que le microbiote a causé la maladie.",
+      "Il faut examiner les autres facteurs et le sens possible de la relation."
+    ]
+  ],
+  "/chapitres/10-methodologie/": [
+    [
+      "Observation",
+      "Une courbe passe de 4 à 8 unités dans les conditions testées.",
+      "L’augmentation est un résultat directement observable.",
+      "La cause de l’augmentation est directement lisible sur la courbe.",
+      "Les unités et les conditions de mesure doivent être indiquées."
+    ],
+    [
+      "Interprétation",
+      "Une différence apparaît entre un essai et le témoin.",
+      "La différence peut être reliée au facteur testé si le reste est comparable.",
+      "Toute différence prouve automatiquement l’hypothèse.",
+      "Il faut considérer la variabilité des mesures."
+    ],
+    [
+      "Conclusion",
+      "Plusieurs résultats convergent vers une même explication.",
+      "La conclusion relie les résultats à la question initiale.",
+      "Une conclusion scientifique consiste à répéter la consigne.",
+      "La portée de la conclusion dépend des conditions étudiées."
+    ]
+  ],
+  "/chapitres/11-theme-01-transmission-variation-et-expression-du-patrimoine-genetique/": [
+    [
+      "Réplication",
+      "Avant une division, la quantité d’ADN double.",
+      "L’information génétique a été copiée.",
+      "Le doublement de l’ADN correspond à la fabrication de protéines.",
+      "Quantité d’ADN et nombre de chromosomes ne se confondent pas."
+    ],
+    [
+      "Expression génétique",
+      "Une cellule transcrit certains gènes et produit les protéines correspondantes.",
+      "Une partie de l’information génétique est utilisée par la cellule.",
+      "Seuls les gènes exprimés sont présents dans son ADN.",
+      "L’expression varie selon le type cellulaire et les conditions."
+    ],
+    [
+      "Mutation",
+      "Une modification de séquence apparaît dans un gène.",
+      "La modification peut créer un nouvel allèle.",
+      "Toute mutation modifie obligatoirement le phénotype.",
+      "L’effet dépend de la modification et de son contexte."
+    ]
+  ],
+  "/chapitres/12-chapitre-01-la-division-cellulaire/": [
+    [
+      "Interphase",
+      "La quantité d’ADN double avant la division.",
+      "La réplication précède la séparation des chromatides.",
+      "La synthèse d’ADN se déroule uniquement pendant la séparation des cellules.",
+      "Un chromosome dupliqué garde ses deux chromatides associées avant leur séparation."
+    ],
+    [
+      "Mitose",
+      "Des chromatides sœurs migrent vers des pôles opposés.",
+      "Chaque futur noyau reçoit un exemplaire de chaque chromosome.",
+      "Les chromatides sœurs restent toutes du même côté.",
+      "Le partage équitable dépend du bon déroulement de la division."
+    ],
+    [
+      "Cytocinèse",
+      "Deux noyaux sont visibles et le cytoplasme se sépare.",
+      "La séparation du cytoplasme individualise les deux cellules filles.",
+      "Le partage du cytoplasme est la copie de l’ADN.",
+      "Le mécanisme de séparation diffère selon les types de cellules."
+    ]
+  ],
+  "/chapitres/13-chapitre-02-la-replication-de-l-adn/": [
+    [
+      "Complémentarité",
+      "Un brin d’ADN sert de matrice à un nouveau brin.",
+      "L’appariement des bases guide la copie.",
+      "Les bases sont ajoutées sans lien avec le brin matrice.",
+      "Des erreurs de copie peuvent survenir."
+    ],
+    [
+      "Réplication semi-conservative",
+      "Des molécules d’ADN filles contiennent chacune un brin ancien et un brin neuf.",
+      "Chaque molécule conserve la moitié de la molécule parentale au sens des brins.",
+      "Une molécule fille conserve les deux brins parentaux.",
+      "On parle ici de l’origine des brins, pas de la longueur des molécules."
+    ],
+    [
+      "Erreur de réplication",
+      "Une différence de séquence subsiste après la copie de l’ADN.",
+      "Une erreur non corrigée peut devenir une mutation après fixation.",
+      "Toute erreur de copie est immédiatement transmise à toute la descendance.",
+      "La réparation et le type de cellule influencent les conséquences."
+    ]
+  ],
+  "/chapitres/14-chapitre-03-l-expression-du-patrimoine-genetique/": [
+    [
+      "Transcription",
+      "Un ARN est élaboré à partir d’une séquence d’ADN.",
+      "L’information du gène est copiée sous forme d’ARN.",
+      "La transcription assemble directement des acides aminés.",
+      "Le produit de la transcription peut subir une maturation."
+    ],
+    [
+      "Traduction",
+      "Un ribosome parcourt une succession de codons d’un ARN messager.",
+      "Les codons guident l’assemblage des acides aminés.",
+      "Le ribosome réplique les deux brins d’ADN.",
+      "Un codon stop signale la fin sans ajouter d’acide aminé."
+    ],
+    [
+      "Code génétique",
+      "Deux codons différents correspondent au même acide aminé.",
+      "Le code génétique comporte des codons synonymes.",
+      "Chaque acide aminé possède un et un seul codon.",
+      "Selon le changement, une mutation peut modifier ou conserver l’acide aminé."
+    ]
+  ],
+  "/chapitres/15-chapitre-04-les-enzymes-des-biomolecules-aux-proprietes-catalytiques/": [
+    [
+      "Site actif",
+      "Une enzyme reconnaît certains substrats et accélère leur transformation.",
+      "Le site actif contribue à la reconnaissance et à la catalyse.",
+      "Une enzyme transforme indifféremment tous les substrats.",
+      "L’activité peut dépendre du milieu."
+    ],
+    [
+      "Catalyse",
+      "Avec une enzyme, le produit apparaît plus rapidement.",
+      "L’enzyme accélère la transformation dans les conditions testées.",
+      "L’enzyme est forcément consommée au même rythme que le substrat.",
+      "On peut comparer des vitesses initiales à conditions identiques."
+    ],
+    [
+      "Dénaturation",
+      "À température très élevée, une enzyme perd durablement son activité.",
+      "Une modification de structure peut expliquer la perte d’activité.",
+      "Chauffer augmente toujours l’activité enzymatique.",
+      "Distinguer un ralentissement réversible d’une perte durable d’activité."
+    ]
+  ],
+  "/chapitres/16-chapitre-05-l-histoire-humaine-lue-dans-son-genome/": [
+    [
+      "ADN mitochondrial",
+      "Des séquences mitochondriales anciennes sont alignées et comparées.",
+      "Les différences renseignent sur des parentés mitochondriales.",
+      "Un phénogramme mitochondrial suffit à résumer tout le génome.",
+      "L’ADN mitochondrial retrace principalement une lignée maternelle."
+    ],
+    [
+      "Introgression",
+      "Des fragments proches du génome de Denisova sont présents chez des humains actuels.",
+      "Des métissages anciens peuvent expliquer leur présence.",
+      "Le fragment prouve que tout le génome est d’origine denisovienne.",
+      "Différents fragments et populations peuvent avoir des histoires distinctes."
+    ],
+    [
+      "Sélection naturelle",
+      "Un variant hérité devient fréquent dans une population d’altitude où il est avantageux.",
+      "La survie ou la reproduction différentielle peut modifier sa fréquence.",
+      "La sélection crée exactement le variant dont les individus ont besoin.",
+      "Une fréquence élevée, à elle seule, ne suffit pas à exclure la dérive."
+    ]
+  ],
+  "/chapitres/17-chapitre-06-mutations-de-l-adn-et-variabilite-genetique/": [
+    [
+      "Substitution",
+      "À une position précise, un A est remplacé par un G.",
+      "Une base a été remplacée par une autre.",
+      "La séquence a forcément gagné un nucléotide.",
+      "L’effet dépend de la position et du contexte."
+    ],
+    [
+      "Allèle",
+      "Deux versions d’un même gène diffèrent par leur séquence.",
+      "Les différences de séquence définissent des versions du gène.",
+      "Deux allèles correspondent forcément à deux gènes distincts.",
+      "Plusieurs variants peuvent se trouver dans un même allèle."
+    ],
+    [
+      "Transmission",
+      "Une modification est présente dans un gamète qui participe à la fécondation.",
+      "Elle peut être transmise à l’individu issu de ce gamète.",
+      "Toute mutation somatique est transmise aux enfants.",
+      "Une transmission ne prédit pas un effet phénotypique."
+    ]
+  ],
+  "/chapitres/18-chapitre-07-la-structure-du-globe-terrestre/": [
+    [
+      "Ondes sismiques",
+      "La vitesse des ondes change brusquement à une profondeur donnée.",
+      "Le changement révèle une discontinuité des propriétés du milieu.",
+      "Les ondes traversent toujours le globe à vitesse constante.",
+      "Vitesses et trajectoires sont complémentaires pour interpréter la discontinuité."
+    ],
+    [
+      "Moho",
+      "Un changement de vitesse marque la base de la croûte.",
+      "Ce repère sépare la croûte du manteau supérieur.",
+      "Le Moho sépare le noyau interne du noyau externe.",
+      "Sa profondeur varie selon la région."
+    ],
+    [
+      "Noyau externe",
+      "Certaines ondes de cisaillement ne traversent pas le noyau externe.",
+      "L’absence de propagation est cohérente avec un milieu liquide.",
+      "Les ondes de cisaillement se propagent normalement dans les liquides.",
+      "D’autres observations sont utiles pour établir la structure complète du noyau."
+    ]
+  ],
+  "/chapitres/19-chapitre-08-la-dynamique-de-la-lithosphere/": [
+    [
+      "Dorsale",
+      "Des roches océaniques récentes se trouvent de part et d’autre d’une limite divergente.",
+      "La lithosphère océanique se forme près de la dorsale.",
+      "Les plaques convergent au niveau d’une dorsale.",
+      "Les vitesses d’écartement peuvent varier d’une dorsale à l’autre."
+    ],
+    [
+      "Subduction",
+      "Les foyers sismiques s’alignent sur un plan incliné en profondeur.",
+      "Cette géométrie indique la plongée d’une plaque.",
+      "Une plaque monte verticalement sous la fosse.",
+      "La répartition des foyers aide à contraindre la géométrie de la plaque."
+    ],
+    [
+      "Expansion océanique",
+      "L’âge des roches augmente avec la distance à l’axe de la dorsale.",
+      "Les roches formées à l’axe s’en éloignent au fil du temps.",
+      "Les roches les plus anciennes se forment aujourd’hui à l’axe.",
+      "Comparer les deux côtés aide à tester la symétrie de l’expansion."
+    ]
+  ],
+  "/chapitres/20-chapitre-11-mutations-et-sante/": [
+    [
+      "Prédisposition",
+      "Un allèle augmente la probabilité d’une maladie dans une population étudiée.",
+      "Il constitue un facteur de risque dans ce contexte.",
+      "Tous les porteurs développent forcément la maladie.",
+      "Le risque peut dépendre d’autres facteurs."
+    ],
+    [
+      "Mutation germinale",
+      "Une modification de séquence se trouve dans une cellule à l’origine de gamètes.",
+      "La modification peut être transmise à la descendance.",
+      "Une mutation germinale reste toujours confinée à la peau.",
+      "La transmission dépend des gamètes effectivement impliqués."
+    ],
+    [
+      "Phénotype",
+      "Des porteurs du même variant présentent des manifestations différentes.",
+      "L’expression du caractère peut varier entre individus.",
+      "Un génotype impose toujours les mêmes symptômes dans tous les contextes.",
+      "D’autres gènes et l’environnement peuvent contribuer aux différences."
+    ]
+  ],
+  "/chapitres/21-chapitre-13-alterations-du-genome-et-cancerisation/": [
+    [
+      "Mutation somatique",
+      "Une altération apparaît dans une cellule et ses cellules filles dans un tissu.",
+      "L’altération peut être transmise au clone cellulaire.",
+      "L’altération est nécessairement héritée par les enfants de la personne.",
+      "Une mutation dans un tissu ne suffit pas à conclure à une prédisposition familiale."
+    ],
+    [
+      "Prolifération cellulaire",
+      "Des cellules se divisent malgré des signaux qui freinent normalement la division.",
+      "Le contrôle du cycle cellulaire est perturbé.",
+      "Une cellule cancéreuse ne peut plus se diviser.",
+      "Une croissance rapide ne permet pas à elle seule de caractériser une tumeur."
+    ],
+    [
+      "Cancérisation",
+      "Plusieurs altérations sont repérées dans les cellules d’une tumeur.",
+      "L’accumulation d’altérations peut dérégler plusieurs contrôles cellulaires.",
+      "Toutes les mutations observées ont nécessairement le même rôle.",
+      "Il faut distinguer les altérations qui favorisent la tumeur de celles sans effet démontré."
+    ]
+  ],
+  "/chapitres/22-chapitre-14-variation-genetique-bacterienne-et-resistance-aux-antibiotiques/": [
+    [
+      "Résistance",
+      "Certaines bactéries déjà résistantes survivent mieux à une exposition.",
+      "La population peut s’enrichir en bactéries résistantes.",
+      "Toutes les bactéries deviennent résistantes en même temps.",
+      "L’évolution de la fréquence dépend aussi de la reproduction et des conditions."
+    ],
+    [
+      "Sélection",
+      "La part des résistantes augmente après traitement alors que les sensibles diminuent.",
+      "Les conditions ont favorisé la persistance des résistantes.",
+      "La sélection apparaît seulement si toutes les bactéries disparaissent.",
+      "Une hausse de proportion ne prouve pas une hausse de l’effectif total."
+    ],
+    [
+      "Variabilité",
+      "Une population contient des bactéries sensibles et résistantes avant exposition.",
+      "Il existe une variation initiale sur laquelle la sélection peut agir.",
+      "La variation initiale ne joue aucun rôle dans l’évolution de la population.",
+      "La résistance dépend de l’antibiotique considéré."
+    ]
+  ],
+  "/chapitres/23-chapitre-15-limmunite-innee/": [
+    [
+      "Inflammation",
+      "Une zone devient rouge, chaude et gonflée après une blessure.",
+      "La réaction locale implique notamment des changements vasculaires.",
+      "Ces signes prouvent qu’il s’agit d’une réponse spécifique à mémoire.",
+      "Des causes différentes peuvent déclencher une inflammation."
+    ],
+    [
+      "Phagocytose",
+      "Une cellule immunitaire entoure puis internalise une particule.",
+      "La cellule peut contribuer à l’élimination de cette particule.",
+      "La phagocytose consiste à produire des anticorps.",
+      "L’observation d’une internalisation ne démontre pas seule la destruction."
+    ],
+    [
+      "Médiateur",
+      "Des signaux locaux sont libérés près d’un tissu lésé.",
+      "Ils peuvent contribuer au recrutement de cellules immunitaires.",
+      "Les signaux sont confinés à l’intérieur de la cellule qui les produit.",
+      "Plusieurs signaux peuvent agir ensemble."
+    ]
+  ],
+  "/chapitres/24-chapitre-16-l-immunite-adaptative/": [
+    [
+      "Antigène",
+      "Des récepteurs immunitaires reconnaissent une structure particulière.",
+      "La reconnaissance peut contribuer à la spécificité de la réponse.",
+      "Tous les récepteurs reconnaissent toutes les structures de façon identique.",
+      "Une même structure peut être reconnue par plusieurs clones différents."
+    ],
+    [
+      "Sélection clonale",
+      "Les lymphocytes capables de reconnaître un antigène prolifèrent.",
+      "La population de clones spécifiques s’amplifie.",
+      "Tous les lymphocytes de l’organisme prolifèrent autant.",
+      "L’activation dépend aussi de signaux complémentaires."
+    ],
+    [
+      "Mémoire immunitaire",
+      "Une seconde rencontre avec le même antigène déclenche une réponse plus rapide.",
+      "Des lymphocytes mémoire contribuent à cette réponse.",
+      "La mémoire immunitaire rend toute infection impossible.",
+      "La protection dépend notamment de l’antigène et de la persistance de la mémoire."
+    ]
+  ],
+  "/chapitres/25-chapitre-03-le-temps-et-les-roches/": [
+    [
+      "Superposition",
+      "Dans une série non renversée, une couche surmonte une autre.",
+      "La couche supérieure est plus récente.",
+      "La couche inférieure est toujours la plus récente.",
+      "Vérifier que les couches n’ont pas été renversées."
+    ],
+    [
+      "Recoupement",
+      "Un filon traverse plusieurs couches déjà en place.",
+      "Le filon est plus récent que les couches qu’il coupe.",
+      "Le filon doit être plus ancien que toutes les couches recoupées.",
+      "Le recoupement donne un ordre, pas un âge chiffré."
+    ],
+    [
+      "Datation absolue",
+      "Une mesure isotopique est interprétée à l’aide d’un modèle de désintégration.",
+      "On obtient une estimation d’âge avec ses incertitudes.",
+      "Un rapport isotopique fournit un âge exact sans hypothèse.",
+      "L’âge dépend de l’événement enregistré par le système minéral."
+    ]
+  ],
+  "/chapitres/26-chapitre-04-les-traces-du-passe-mouvemente-de-la-planete/": [
+    [
+      "Basalte en coussins",
+      "Des laves arrondies et empilées sont observées au Chenaillet.",
+      "Ces formes sont compatibles avec un refroidissement sous l’eau.",
+      "Les coussins sont la preuve d’une cristallisation très lente en profondeur.",
+      "D’autres indices sont nécessaires pour reconstituer tout l’ancien domaine."
+    ],
+    [
+      "Ophiolite",
+      "Des basaltes, gabbros et roches mantelliques sont associés dans une chaîne.",
+      "Cette association peut correspondre à un fragment de lithosphère océanique.",
+      "Une ophiolite est uniquement un dépôt sédimentaire continental.",
+      "La succession des roches n’est pas forcément complète partout."
+    ],
+    [
+      "Collision",
+      "Des structures compressives sont associées à la fermeture d’un domaine océanique.",
+      "Elles indiquent un raccourcissement lié à la convergence.",
+      "Une chaîne de collision se forme par écartement des continents.",
+      "Les roches peuvent conserver des indices d’étapes précédant la collision."
+    ]
+  ],
+  "/chapitres/27-chapitre-13-les-climats-passes/": [
+    [
+      "Archive pollinique",
+      "Les proportions de pollens changent dans une carotte sédimentaire.",
+      "Les changements peuvent renseigner sur la végétation passée.",
+      "Les pollens mesurent directement la température de l’air.",
+      "La végétation dépend aussi du milieu et des activités humaines."
+    ],
+    [
+      "Glace continentale",
+      "Des bulles d’air sont emprisonnées dans des couches de glace.",
+      "Elles donnent accès à des indices sur l’atmosphère passée.",
+      "Les bulles ont toutes exactement la composition de l’air actuel.",
+      "L’âge de la glace et celui de l’air piégé peuvent différer."
+    ],
+    [
+      "Indicateur indirect",
+      "Deux archives donnent des tendances similaires malgré des incertitudes différentes.",
+      "La convergence renforce l’interprétation climatique.",
+      "Une seule archive suffit toujours à reconstituer le climat mondial.",
+      "La résolution et la localisation des archives doivent être prises en compte."
+    ]
+  ],
+  "/chapitres/28-chapitre-09-comportements-mouvement-et-systeme-nerveux/": [
+    [
+      "Réflexe",
+      "Un étirement du muscle déclenche une réponse rapide involontaire.",
+      "Un circuit nerveux relie le stimulus à la contraction.",
+      "Tout réflexe nécessite une décision consciente préalable.",
+      "La réponse peut être modulée par d’autres voies nerveuses."
+    ],
+    [
+      "Motoneurone",
+      "Un message nerveux atteint une jonction neuromusculaire.",
+      "Le signal peut déclencher l’activation de la fibre musculaire.",
+      "Le motoneurone se contracte à la place du muscle.",
+      "Une unité motrice associe un motoneurone et les fibres qu’il commande."
+    ],
+    [
+      "Commande volontaire",
+      "Une activité cérébrale précède un mouvement choisi.",
+      "Des réseaux cérébraux participent à l’élaboration de la commande.",
+      "Le mouvement volontaire ne dépend que du muscle.",
+      "Plusieurs circuits coopèrent dans un mouvement coordonné."
+    ]
+  ],
+  "/chapitres/29-chapitre-10-contraction-musculaire-et-apport-energetique/": [
+    [
+      "ATP",
+      "La fibre musculaire contractée consomme une molécule régénérée pendant l’effort.",
+      "L’ATP fournit de l’énergie aux mécanismes de contraction.",
+      "L’ATP n’est utilisée que lorsque le muscle est au repos.",
+      "La cellule doit adapter le renouvellement de l’ATP à la demande."
+    ],
+    [
+      "Actine et myosine",
+      "Des filaments coulissent les uns par rapport aux autres.",
+      "Le coulissement réduit la longueur du sarcomère.",
+      "Les filaments doivent se raccourcir individuellement.",
+      "Un signal et des conditions intracellulaires appropriées sont nécessaires."
+    ],
+    [
+      "Respiration musculaire",
+      "Un effort prolongé s’accompagne d’une consommation accrue de dioxygène.",
+      "La respiration contribue à renouveler l’ATP disponible.",
+      "Le dioxygène remplace directement l’ATP dans la contraction.",
+      "La contribution des voies énergétiques varie selon l’intensité et la durée."
+    ]
+  ],
+  "/chapitres/30-chapitre-11-comportements-et-stress/": [
+    [
+      "Adrénaline",
+      "Le rythme cardiaque augmente rapidement face à une menace.",
+      "Une réponse rapide contribue à mobiliser des ressources.",
+      "Les effets rapides nécessitent toujours plusieurs jours.",
+      "La réponse dépend du contexte et de l’intensité du stimulus."
+    ],
+    [
+      "Cortisol",
+      "Un signal hormonal se prolonge après le début de la réponse.",
+      "Le cortisol participe à une phase plus durable de mobilisation.",
+      "Le cortisol ne joue aucun rôle dans la réponse au stress.",
+      "Les rétrocontrôles contribuent à limiter la réponse."
+    ],
+    [
+      "Stress chronique",
+      "Une activation se répète ou persiste longtemps.",
+      "Une réponse durable peut modifier le fonctionnement de l’organisme.",
+      "Le stress chronique est identique à un seul épisode bref.",
+      "Les effets varient entre individus et situations."
+    ]
+  ],
+  "/chapitres/31-chapitre-07-la-plante-productrice-de-matiere-organique/": [
+    [
+      "Photosynthèse",
+      "Une feuille éclairée incorpore du carbone issu du dioxyde de carbone.",
+      "L’énergie lumineuse permet de fabriquer de la matière organique.",
+      "La lumière fournit directement les atomes de carbone.",
+      "Le bilan observé tient aussi compte de la respiration."
+    ],
+    [
+      "Sève brute",
+      "De l’eau et des sels minéraux circulent des racines vers les feuilles.",
+      "Le transport contribue à l’approvisionnement des organes aériens.",
+      "La sève brute transporte uniquement des sucres des feuilles vers les racines.",
+      "L’absorption et le transport dépendent des conditions du milieu."
+    ],
+    [
+      "Sève élaborée",
+      "Des composés organiques quittent une feuille vers un organe en croissance.",
+      "Les produits de la photosynthèse peuvent alimenter des organes demandeurs.",
+      "Les molécules organiques restent toujours dans la feuille où elles sont fabriquées.",
+      "Le sens du transport dépend des organes sources et puits."
+    ]
+  ],
+  "/chapitres/32-chapitre-08-reproduction-des-plantes/": [
+    [
+      "Pollinisation",
+      "Du pollen est transféré vers la zone réceptrice d’une fleur.",
+      "Ce transfert peut permettre une fécondation ultérieure.",
+      "La pollinisation est la chute d’une graine mûre.",
+      "Le transfert de pollen ne garantit pas une fécondation."
+    ],
+    [
+      "Reproduction asexuée",
+      "Un fragment végétal produit un nouvel individu sans fusion de gamètes.",
+      "Le nouvel individu résulte d’une multiplication végétative.",
+      "La multiplication végétative exige la rencontre de deux gamètes.",
+      "Des mutations peuvent introduire des différences entre descendants."
+    ],
+    [
+      "Dispersion",
+      "Des graines sont transportées loin de la plante mère.",
+      "La dispersion peut permettre la colonisation de nouveaux lieux.",
+      "La dispersion des graines précède obligatoirement la pollinisation.",
+      "Le transport ne garantit ni germination ni établissement."
+    ]
+  ],
+  "/chapitres/33-chapitre-01-l-origine-du-genome-des-individus/": [
+    [
+      "Méiose",
+      "Une cellule produit des gamètes avec un seul chromosome de chaque paire.",
+      "La réduction chromosomique prépare la fécondation.",
+      "Les gamètes normaux conservent les deux exemplaires de chaque paire.",
+      "Le brassage accompagne la répartition chromosomique."
+    ],
+    [
+      "Brassage génétique",
+      "Des gamètes d’un parent portent plusieurs associations d’allèles.",
+      "La méiose contribue à produire des combinaisons différentes.",
+      "Tous les gamètes d’un individu sont génétiquement identiques.",
+      "Les mécanismes varient selon la position des gènes."
+    ],
+    [
+      "Fécondation",
+      "Deux gamètes fusionnent pour former une cellule-œuf.",
+      "Leurs lots chromosomiques sont réunis.",
+      "La fécondation réduit de moitié le nombre de chromosomes du gamète.",
+      "La combinaison dépend des gamètes qui fusionnent."
+    ]
+  ],
+  "/chapitres/34-chapitre-02-la-complexification-des-genomes/": [
+    [
+      "Duplication",
+      "Deux copies très proches d’un gène sont repérées dans le même génome.",
+      "L’une des copies peut provenir d’une duplication.",
+      "Deux copies semblables excluent toute parenté entre elles.",
+      "Les copies peuvent diverger après duplication."
+    ],
+    [
+      "Famille multigénique",
+      "Plusieurs gènes apparentés présentent des séquences semblables mais des fonctions distinctes.",
+      "La duplication et la divergence peuvent expliquer cette famille.",
+      "Tous les gènes apparentés doivent conserver la même fonction.",
+      "La similarité de séquence doit être interprétée avec d’autres indices."
+    ],
+    [
+      "Transfert horizontal",
+      "Un gène présente une parenté inattendue avec une lignée éloignée.",
+      "Un transfert entre lignées peut être envisagé.",
+      "Un gène ne peut être hérité que d’un parent direct dans tous les organismes.",
+      "Il faut confronter plusieurs données avant de conclure à un transfert."
+    ]
+  ],
+  "/chapitres/35-chapitre-05-l-ineluctable-evolution-des-genomes-au-sein-des-populations/": [
+    [
+      "Dérive génétique",
+      "Un allèle neutre varie de fréquence dans une petite population.",
+      "Le hasard de transmission peut expliquer la variation.",
+      "Tout changement de fréquence prouve un avantage sélectif.",
+      "La dérive est souvent plus marquée quand l’effectif est faible."
+    ],
+    [
+      "Sélection naturelle",
+      "Dans un milieu donné, les porteurs d’un allèle laissent davantage de descendants.",
+      "La fréquence de l’allèle peut augmenter.",
+      "La sélection agit en modifiant volontairement chaque individu.",
+      "Un avantage peut dépendre du milieu et changer avec lui."
+    ],
+    [
+      "Flux de gènes",
+      "Des individus venus d’une autre population se reproduisent dans le groupe.",
+      "Des allèles peuvent être introduits ou changer de fréquence.",
+      "La migration ne peut avoir aucun effet sur les fréquences alléliques.",
+      "Le déplacement contribue au flux si les individus transmettent des allèles."
+    ]
+  ],
+  "/chapitres/36-chapitre-01-une-longue-histoire-de-la-matiere/": [
+    [
+      "Atomes légers",
+      "Les premiers noyaux formés comprennent surtout hydrogène et hélium.",
+      "L’Univers primitif ne possède pas encore les proportions actuelles d’éléments lourds.",
+      "Tous les éléments chimiques sont apparus en quantités égales au début.",
+      "Il faut distinguer formation des noyaux et formation des atomes."
+    ],
+    [
+      "Nucléosynthèse stellaire",
+      "Dans des étoiles, des noyaux légers fusionnent au cours de leur évolution.",
+      "Des réactions nucléaires produisent certains noyaux plus lourds.",
+      "La fusion stellaire ne modifie que les électrons.",
+      "Les éléments les plus lourds peuvent mobiliser d’autres processus astrophysiques."
+    ],
+    [
+      "Abondance",
+      "Deux objets astronomiques ont des compositions chimiques différentes.",
+      "Leur composition renseigne sur leur histoire matérielle.",
+      "Tous les objets célestes ont la même composition.",
+      "Les abondances mesurées dépendent aussi de la méthode d’observation."
+    ]
+  ],
+  "/chapitres/37-chapitre-02-le-soleil-notre-source-d-energie/": [
+    [
+      "Puissance surfacique",
+      "Un faisceau oblique se répartit sur une plus grande surface.",
+      "La puissance reçue par mètre carré diminue.",
+      "L’énergie reçue par mètre carré augmente toujours avec l’obliquité.",
+      "La comparaison suppose une puissance incidente identique."
+    ],
+    [
+      "Saisons",
+      "L’orientation de la Terre modifie la durée du jour dans un hémisphère.",
+      "L’inclinaison de l’axe contribue aux variations saisonnières.",
+      "Les deux hémisphères ont toujours la même saison.",
+      "La durée du jour et l’angle d’incidence contribuent ensemble au bilan."
+    ],
+    [
+      "Bilan énergétique",
+      "Une partie du rayonnement incident est réfléchie.",
+      "Cette part ne contribue pas à l’énergie absorbée par la surface considérée.",
+      "Toute l’énergie solaire incidente est toujours absorbée.",
+      "Le bilan dépend aussi du rayonnement émis et de la surface étudiée."
+    ]
+  ],
+  "/chapitres/38-chapitre-03-la-methode-scientifique/": [
+    [
+      "Hypothèse",
+      "Une explication est proposée et produit une prédiction mesurable.",
+      "Elle peut être confrontée à des observations.",
+      "Une hypothèse scientifique est forcément vraie dès qu’elle est formulée.",
+      "Une prédiction confirmée peut rester compatible avec d’autres explications."
+    ],
+    [
+      "Témoin",
+      "Un montage reproduit les conditions de l’essai sans le facteur étudié.",
+      "La comparaison aide à isoler l’effet du facteur.",
+      "Le témoin doit varier sur plusieurs facteurs en même temps.",
+      "Un témoin inadéquat réduit la portée du résultat."
+    ],
+    [
+      "Répétition",
+      "La même mesure est réalisée plusieurs fois et les valeurs diffèrent légèrement.",
+      "La répétition renseigne sur la dispersion des résultats.",
+      "Des répétitions doivent donner exactement la même valeur.",
+      "La répétition ne supprime pas à elle seule un biais systématique."
+    ]
+  ],
+  "/chapitres/39-chapitre-04-la-terre-un-astre-singulier/": [
+    [
+      "Courbure terrestre",
+      "À un même instant, des ombres présentent des angles différents en deux lieux.",
+      "La différence est cohérente avec une surface terrestre courbe.",
+      "Les ombres doivent toujours avoir le même angle partout.",
+      "L’estimation exige des hypothèses sur les rayons solaires et la géométrie des lieux."
+    ],
+    [
+      "Rotation terrestre",
+      "Le ciel semble tourner au cours d’une journée.",
+      "La rotation de la Terre explique ce mouvement apparent quotidien.",
+      "Le mouvement apparent prouve que la Terre est immobile.",
+      "Distinguer le modèle explicatif et l’observation depuis la Terre."
+    ],
+    [
+      "Mesure de circonférence",
+      "On connaît une différence d’angle et une distance entre deux lieux.",
+      "La proportion entre angle et tour complet permet une estimation.",
+      "Un angle seul suffit pour calculer une longueur absolue.",
+      "La précision dépend des distances, des angles et des hypothèses du modèle."
+    ]
+  ],
+  "/chapitres/40-chapitre-05-son-et-musique-porteurs-d-information/": [
+    [
+      "Fréquence",
+      "Le nombre d’oscillations par seconde augmente.",
+      "La hauteur du son augmente.",
+      "Le son devient nécessairement plus fort.",
+      "Hauteur et niveau sonore sont deux caractéristiques distinctes."
+    ],
+    [
+      "Intensité",
+      "La puissance acoustique se répartit sur une surface.",
+      "L’intensité correspond à une puissance par unité de surface.",
+      "L’intensité sonore s’exprime uniquement en hertz.",
+      "Le lien avec la distance dépend de la propagation."
+    ],
+    [
+      "Niveau sonore",
+      "Deux intensités sont comparées sur une échelle en décibels.",
+      "L’échelle logarithmique transforme certains rapports d’intensité en écarts de niveau.",
+      "Doubler l’intensité double toujours la valeur en décibels.",
+      "Une addition de niveaux exige de revenir aux intensités lorsque c’est pertinent."
+    ]
+  ],
+  "/chapitres/41-methodologie/": [
+    [
+      "Unité",
+      "Un graphique compare des valeurs exprimées en milligrammes par litre.",
+      "L’unité précise le sens des nombres lus.",
+      "On peut ignorer les unités si les nombres sont lisibles.",
+      "Une conversion peut être indispensable pour comparer deux documents."
+    ],
+    [
+      "Tendance",
+      "Un nuage de points montre une hausse générale avec une forte dispersion.",
+      "L’évolution moyenne n’implique pas une hausse à chaque observation.",
+      "Une tendance suffit à prédire exactement chaque valeur individuelle.",
+      "Les incertitudes et les écarts font partie de l’interprétation."
+    ],
+    [
+      "Argument",
+      "Une réponse cite un résultat et l’explique à l’aide d’une connaissance.",
+      "Elle relie les données à la conclusion proposée.",
+      "Une réponse argumentée doit uniquement recopier les données.",
+      "Il faut éviter de conclure au-delà des données disponibles."
+    ]
+  ],
+  "/chapitres/42-theme-01-science-climat-et-societe/": [
+    [
+      "Observation climatique",
+      "Des mesures de température sont analysées sur plusieurs décennies.",
+      "L’évolution moyenne éclaire une tendance climatique.",
+      "Une seule journée froide invalide à elle seule la tendance.",
+      "Les variations courtes peuvent coexister avec une tendance longue."
+    ],
+    [
+      "Modèle climatique",
+      "Des simulations sont comparées sous plusieurs hypothèses d’émissions.",
+      "Elles permettent d’explorer des trajectoires conditionnelles.",
+      "Tous les scénarios sont des prédictions certaines d’un futur unique.",
+      "Les choix et hypothèses de scénario comptent dans l’interprétation."
+    ],
+    [
+      "Décision collective",
+      "Des solutions sont comparées selon plusieurs objectifs et contraintes.",
+      "Les données scientifiques éclairent des choix sociaux.",
+      "Une mesure scientifique dicte à elle seule une décision unique.",
+      "Les arbitrages doivent être distingués des constats."
+    ]
+  ],
+  "/chapitres/43-chapitre-01-l-atmosphere-terrestre-et-la-vie/": [
+    [
+      "Atmosphère primitive",
+      "Des données géologiques indiquent une composition ancienne différente de l’actuelle.",
+      "L’atmosphère a évolué au cours de l’histoire terrestre.",
+      "L’atmosphère actuelle était déjà entièrement constituée dès l’origine.",
+      "La composition ancienne est reconstruite à partir d’indices indirects."
+    ],
+    [
+      "Photosynthèse oxygénique",
+      "Certains organismes libèrent du dioxygène en utilisant la lumière.",
+      "Le vivant peut contribuer à modifier l’atmosphère.",
+      "Tout dioxygène produit s’accumule aussitôt dans l’atmosphère.",
+      "Des réactions peuvent consommer une partie du dioxygène produit."
+    ],
+    [
+      "Couche d’ozone",
+      "Une partie du rayonnement ultraviolet est absorbée dans l’atmosphère.",
+      "L’ozone contribue à limiter certains UV arrivant à la surface.",
+      "L’ozone bloque tout rayonnement solaire.",
+      "Les effets de l’ozone varient selon sa localisation."
+    ]
+  ],
+  "/chapitres/44-chapitre-02-la-complexite-du-systeme-climatique/": [
+    [
+      "Albédo",
+      "L’océan sombre remplace une surface de glace claire.",
+      "Une plus grande part du rayonnement solaire peut être absorbée.",
+      "L’océan sombre réfléchit davantage que la banquise claire.",
+      "Trois facteurs comptent dans une estimation quantitative : surface, éclairement et capacité de réflexion."
+    ],
+    [
+      "Rétroaction positive",
+      "Un réchauffement fait reculer la glace, ce qui renforce l’absorption d’énergie.",
+      "Le mécanisme amplifie la perturbation initiale.",
+      "Une rétroaction positive signifie forcément un effet favorable.",
+      "On doit identifier la boucle de cause à effet avant de qualifier la rétroaction."
+    ],
+    [
+      "Inertie climatique",
+      "L’océan stocke et restitue de la chaleur sur des durées longues.",
+      "Le système climatique peut répondre progressivement à une perturbation.",
+      "L’équilibre climatique est toujours rétabli instantanément.",
+      "Les différentes parties du système n’ont pas les mêmes temps de réponse."
+    ]
+  ],
+  "/chapitres/45-theme-03-une-histoire-du-vivant/": [
+    [
+      "Caractère dérivé partagé",
+      "Deux groupes possèdent un caractère hérité pouvant être absent d’un groupe extérieur.",
+      "Ce partage peut renseigner sur un ancêtre commun.",
+      "Tout caractère ressemblant établit à lui seul une parenté certaine.",
+      "Des ressemblances peuvent aussi apparaître par convergence."
+    ],
+    [
+      "Arbre de parenté",
+      "Deux branches se rejoignent en un nœud.",
+      "Le nœud représente une hypothèse d’ancêtre commun.",
+      "Un nom placé en haut de l’arbre désigne forcément le groupe le plus évolué.",
+      "Faire pivoter des branches autour d’un nœud ne modifie pas les parentés."
+    ],
+    [
+      "Sélection et évolution",
+      "Des différences héréditaires influencent le succès reproducteur selon le milieu.",
+      "La composition d’une population peut changer entre générations.",
+      "Les individus acquièrent volontairement les caractères nécessaires.",
+      "Certains changements de fréquence relèvent aussi du hasard."
+    ]
+  ]
+}

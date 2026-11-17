@@ -55,8 +55,36 @@ def chapter_route(text, exercise):
     )
 
 
+def insert_quiz(text, cases):
+    if len(cases) != 3 or any(len(case) != 5 for case in cases):
+        raise ValueError('Le QCM nécessite trois cas complets')
+    data = escape(json.dumps(cases, ensure_ascii=False), quote=True)
+    markup = f'''
+<section class="overview-group chapter-quiz" id="entrainement-qcm" data-cases="{data}">
+  <h2>Entraînement · QCM</h2>
+  <p>Valide les trois questions d’un niveau pour débloquer le suivant. Tu peux réessayer les questions à revoir.</p>
+  <div class="qcm-app"></div>
+  <noscript>Active JavaScript pour utiliser cet entraînement.</noscript>
+</section>
+'''
+    if '</article>' not in text:
+        raise ValueError('Emplacement du QCM introuvable')
+    text = text.replace('</article>', markup + '</article>', 1)
+    text = re.sub(
+        r'(<nav class="chapter-route"[^>]*><ol>)',
+        lambda match: match[1] + '<li><a href="#entrainement-qcm">Entraînement · QCM</a></li>',
+        text,
+        count=1,
+    )
+    return text.replace(
+        '</head>', '<link rel="stylesheet" href="/chapter-quiz.css">'
+        '<script src="/chapter-quiz.js" defer></script></head>', 1
+    )
+
+
 def update_lessons(site):
     exercises = json.loads(Path(__file__).with_name('chapter_exercises.json').read_text(encoding='utf-8'))
+    quizzes = json.loads(Path(__file__).with_name('chapter_quizzes.json').read_text(encoding='utf-8'))
     catalogue = (site / 'catalogue.js').read_text(encoding='utf-8')
     chapters, _ = json.JSONDecoder().raw_decode(catalogue[catalogue.index('['):])
     urls = {chapter['overview'] for chapter in chapters if chapter.get('overview')}
@@ -70,6 +98,8 @@ def update_lessons(site):
         text = file.read_text(encoding='utf-8')
         if url in exercises and 'id="auto-evaluation"' not in text:
             text = chapter_route(text, exercises[url])
+        if url in quizzes:
+            text = insert_quiz(text, quizzes[url])
         if CSS_LINK not in text:
             text = text.replace('</head>', CSS_LINK + '</head>', 1)
         credit = (
