@@ -72,16 +72,18 @@ def update_lessons(site):
             text = chapter_route(text, exercises[url])
         if CSS_LINK not in text:
             text = text.replace('</head>', CSS_LINK + '</head>', 1)
-        if 'class="canopee-credit"' not in text:
-            credit = (
-                '<aside class="canopee-credit" aria-label="Crédit et source">'
-                '<strong>Mise en ligne et adaptation pédagogique par Nicolas Delage · Canopée</strong><br>'
-                'En cas de réutilisation, citez Canopée et '
-                f'<a href="{escape(PUBLIC_ROOT + url, quote=True)}">le lien vers cette page</a>. '
-                'Respectez les crédits des documents et illustrations cités.</aside>'
-            )
-            if '</main>' in text:
-                text = text.replace('</main>', credit + '</main>', 1)
-            else:
-                text = text.replace('</body>', credit + '</body>', 1)
+        credit = (
+            '<aside class="canopee-credit" aria-label="Crédit et source">'
+            '<strong>Ressource pédagogique · Canopée</strong><br>'
+            'En cas de réutilisation, citez Canopée et '
+            f'<a href="{escape(PUBLIC_ROOT + url, quote=True)}">le lien vers cette page</a>. '
+            'Respectez les crédits des documents et illustrations cités.</aside>'
+        )
+        if 'class="canopee-credit"' in text:
+            text = re.sub(r'<aside class="canopee-credit"[^>]*>.*?</aside>',
+                          lambda match: credit, text, flags=re.DOTALL)
+        elif '</main>' in text:
+            text = text.replace('</main>', credit + '</main>', 1)
+        else:
+            text = text.replace('</body>', credit + '</body>', 1)
         file.write_text(text, encoding='utf-8')
