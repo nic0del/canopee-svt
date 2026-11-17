@@ -8,3 +8,5 @@
 .canopee-credit{margin:1.5rem 0 .5rem;padding:.75rem 1rem;border-top:1px solid #90a78d;color:#385748;font-size:.9rem;overflow-wrap:anywhere}
 @media(max-width:640px){.chapter-route ol{grid-template-columns:1fr}.lesson-content .answer-block textarea{font-size:1rem;width:100%;box-sizing:border-box}.lesson-content .model-answer summary,.lesson-content .clear-answer{min-height:44px}.lesson-content table{width:100%;table-layout:fixed;overflow-wrap:anywhere;font-size:.90rem}.lesson-content table :is(td,th){padding:.3rem}.lesson-content figure img{max-width:100%;height:auto}}
 @media print{.chapter-route{display:none}.canopee-credit{break-inside:avoid}}
+
+@media print{.canopee-credit a::after{content:' (' attr(href) ')'}}

@@ -1,0 +1,222 @@
+{
+  "/seconde/chapitre-1/": [
+    "Relier la spécialisation d’une cellule à sa fonction.",
+    "Pourquoi un neurone possède-t-il de longs prolongements ?",
+    "Ses prolongements lui permettent de recevoir et de transmettre des messages à d’autres cellules, parfois sur une grande distance. La forme du neurone facilite cette fonction."
+  ],
+  "/chapitres/02-chapitre-02-adn-et-specialisation-cellulaire/": [
+    "Expliquer comment des cellules portant le même génome peuvent se spécialiser.",
+    "Pourquoi une cellule musculaire et un neurone fonctionnent-ils différemment alors qu’ils portent généralement le même génome ?",
+    "Ils n’expriment pas les mêmes ensembles de gènes. Ils produisent donc des protéines différentes, liées à leurs structures et à leurs fonctions."
+  ],
+  "/chapitres/03-chapitre-03-metabolisme-cellulaire/": [
+    "Relier les échanges d’une cellule à son métabolisme.",
+    "Comment une mesure du dioxygène consommé peut-elle renseigner sur la respiration cellulaire ?",
+    "Une baisse du dioxygène par rapport à un témoin est compatible avec sa consommation par les cellules lors de la respiration. Le témoin aide à écarter une autre cause de variation."
+  ],
+  "/chapitres/04-chapitre-04-les-echelles-de-la-biodiversite/": [
+    "Distinguer les échelles de la biodiversité.",
+    "Deux individus d’une même espèce possèdent des allèles différents. À quelle échelle observe-t-on cette diversité ?",
+    "C’est la diversité génétique au sein de l’espèce. Le nombre d’espèces présentes correspond à une autre échelle."
+  ],
+  "/chapitres/05-chapitre-05-la-biodiversite-evolue-au-cours-du-temps/": [
+    "Interpréter des indices de l’évolution de la biodiversité.",
+    "Que montre le remplacement de certaines espèces fossiles par d’autres dans des couches plus récentes ?",
+    "Il montre que la composition de la biodiversité change au cours du temps. Il faut comparer des couches datées et tenir compte du caractère incomplet du registre fossile."
+  ],
+  "/chapitres/06-chapitre-04-procreation-et-sexualite-humaine/": [
+    "Distinguer fécondation, développement et moyens de prévention.",
+    "Pourquoi le préservatif et une contraception hormonale ne répondent-ils pas exactement aux mêmes besoins ?",
+    "Les deux peuvent réduire le risque de grossesse. Le préservatif agit aussi comme barrière contre de nombreuses infections sexuellement transmissibles."
+  ],
+  "/chapitres/07-chapitre-05-microorganismes-et-sante/": [
+    "Distinguer présence d’un micro-organisme et maladie.",
+    "La présence de bactéries dans un prélèvement signifie-t-elle toujours qu’il y a une infection ?",
+    "Non. De nombreuses bactéries sont présentes sans provoquer de maladie. Il faut tenir compte du site du prélèvement et du contexte."
+  ],
+  "/chapitres/08-chapitre-01-agents-pathogenes-et-maladies-vectorielles/": [
+    "Identifier les rôles de l’agent pathogène, du vecteur et de l’hôte.",
+    "Dans le paludisme, quel est le rôle du moustique ?",
+    "Le moustique est le vecteur. Il transmet le parasite Plasmodium, qui est l’agent pathogène."
+  ],
+  "/chapitres/09-chapitre-02-microbiote-humain-et-sante/": [
+    "Expliquer un rôle du microbiote et interpréter une comparaison.",
+    "Pourquoi une différence de microbiote entre deux groupes ne suffit-elle pas à démontrer une cause ?",
+    "La différence peut être une cause, une conséquence ou dépendre d’un autre facteur. Il faut des données ou expériences complémentaires pour établir la causalité."
+  ],
+  "/chapitres/10-methodologie/": [
+    "Construire une réponse appuyée sur des données.",
+    "Comment passer d’une observation à une conclusion argumentée ?",
+    "Cite une observation précise, explique à l’aide d’une connaissance ce qu’elle implique, puis réponds à la question en indiquant les limites si nécessaire."
+  ],
+  "/chapitres/11-theme-01-transmission-variation-et-expression-du-patrimoine-genetique/": [
+    "Relier conservation, expression et variation de l’information génétique.",
+    "Une mutation entraîne-t-elle toujours une modification du caractère observable ?",
+    "Non. Elle peut être sans effet sur la protéine ou modifier une séquence sans effet mesurable dans le contexte étudié."
+  ],
+  "/chapitres/12-chapitre-01-la-division-cellulaire/": [
+    "Expliquer la conservation du nombre de chromosomes lors de la mitose.",
+    "Pourquoi chaque cellule fille reçoit-elle le même nombre de chromosomes après la mitose ?",
+    "L’ADN est d’abord répliqué. Puis les chromatides sœurs de chaque chromosome se séparent et une chromatide rejoint chaque cellule fille."
+  ],
+  "/chapitres/13-chapitre-02-la-replication-de-l-adn/": [
+    "Expliquer le caractère semi-conservatif de la réplication.",
+    "Quelle est l’origine des deux brins de chaque molécule d’ADN obtenue après réplication ?",
+    "Chaque molécule contient un brin parental et un brin nouvellement synthétisé par complémentarité."
+  ],
+  "/chapitres/14-chapitre-03-l-expression-du-patrimoine-genetique/": [
+    "Distinguer transcription et traduction.",
+    "Comment passe-t-on de l’information d’un gène à la séquence d’une protéine ?",
+    "L’information est transcrite en ARN. Lors de la traduction, le ribosome lit les codons de l’ARN messager et assemble les acides aminés correspondants."
+  ],
+  "/chapitres/15-chapitre-04-les-enzymes-des-biomolecules-aux-proprietes-catalytiques/": [
+    "Expliquer la spécificité et l’activité d’une enzyme.",
+    "Pourquoi une enzyme n’accélère-t-elle pas toutes les réactions ?",
+    "Son site actif présente des propriétés qui permettent la reconnaissance de certains substrats et la catalyse de certaines transformations."
+  ],
+  "/chapitres/17-chapitre-06-mutations-de-l-adn-et-variabilite-genetique/": [
+    "Relier les mutations à l’apparition de nouveaux allèles.",
+    "Comment une mutation peut-elle accroître la diversité génétique d’une population ?",
+    "Elle peut créer un nouvel allèle. Si cet allèle est transmis à la descendance, il peut se retrouver chez plusieurs individus de la population."
+  ],
+  "/chapitres/18-chapitre-07-la-structure-du-globe-terrestre/": [
+    "Utiliser les ondes sismiques pour étudier l’intérieur du globe.",
+    "Que suggère un changement brusque de vitesse des ondes sismiques en profondeur ?",
+    "Il révèle un changement des propriétés du milieu traversé. Plusieurs observations permettent de localiser une discontinuité et d’en proposer une interprétation."
+  ],
+  "/chapitres/19-chapitre-08-la-dynamique-de-la-lithosphere/": [
+    "Relier les mouvements des plaques aux indices géologiques.",
+    "Comment distinguer une limite divergente d’une zone de subduction ?",
+    "Une dorsale correspond à un écartement et à la formation de lithosphère océanique. En subduction, une plaque s’enfonce, avec des foyers sismiques dont la profondeur augmente sous une autre plaque."
+  ],
+  "/chapitres/20-chapitre-11-mutations-et-sante/": [
+    "Distinguer facteur génétique et risque de maladie.",
+    "Pourquoi porter un allèle associé à une maladie ne signifie-t-il pas toujours qu’on sera malade ?",
+    "L’effet d’un allèle dépend de la maladie et peut interagir avec d’autres gènes et l’environnement. Un facteur de risque modifie une probabilité."
+  ],
+  "/chapitres/21-chapitre-13-alterations-du-genome-et-cancerisation/": [
+    "Expliquer le rôle d’altérations accumulées dans la cancérisation.",
+    "Pourquoi une mutation dans une cellule ne suffit-elle généralement pas à provoquer un cancer ?",
+    "La cancérisation implique généralement l’accumulation d’altérations favorisant la prolifération et l’échappement aux contrôles cellulaires."
+  ],
+  "/chapitres/22-chapitre-14-variation-genetique-bacterienne-et-resistance-aux-antibiotiques/": [
+    "Expliquer comment la sélection modifie la fréquence des résistances.",
+    "Pourquoi la proportion de bactéries résistantes peut-elle augmenter après exposition à un antibiotique ?",
+    "L’exposition favorise la survie et la multiplication de bactéries déjà résistantes. Elle modifie leur proportion dans la population."
+  ],
+  "/chapitres/23-chapitre-15-limmunite-innee/": [
+    "Expliquer le rôle de la réaction inflammatoire.",
+    "Comment une réaction inflammatoire aide-t-elle l’organisme à répondre à une infection ?",
+    "Des signaux locaux modifient la circulation et recrutent des cellules immunitaires. Certaines peuvent éliminer des agents infectieux par phagocytose."
+  ],
+  "/chapitres/24-chapitre-16-l-immunite-adaptative/": [
+    "Relier spécificité et mémoire immunitaire.",
+    "Pourquoi une réponse immunitaire peut-elle être plus rapide lors d’un second contact avec le même antigène ?",
+    "Des lymphocytes mémoire formés lors du premier contact permettent une réponse spécifique plus rapide et souvent plus intense."
+  ],
+  "/chapitres/25-chapitre-03-le-temps-et-les-roches/": [
+    "Distinguer datation relative et datation absolue.",
+    "Un filon recoupe une couche de roche. Quelle information ce recoupement donne-t-il ?",
+    "Le filon est plus récent que la couche qu’il recoupe. Ce principe établit un ordre des événements, sans donner à lui seul un âge chiffré."
+  ],
+  "/chapitres/26-chapitre-04-les-traces-du-passe-mouvemente-de-la-planete/": [
+    "Relier les roches observées à l’histoire d’un ancien océan.",
+    "Pourquoi des basaltes en coussins associés à des roches du manteau dans une chaîne de montagnes sont-ils un indice d’un ancien océan ?",
+    "Les coussins indiquent un volcanisme sous-marin. L’association avec des roches mantelliques renforce l’interprétation en fragments de lithosphère océanique aujourd’hui en altitude."
+  ],
+  "/chapitres/27-chapitre-13-les-climats-passes/": [
+    "Interpréter une archive climatique et préciser ses limites.",
+    "Pourquoi comparer plusieurs archives pour reconstituer un climat passé ?",
+    "Chaque archive enregistre des variables et des conditions locales différentes. Des résultats convergents renforcent l’interprétation et permettent de mieux cerner les incertitudes."
+  ],
+  "/chapitres/28-chapitre-09-comportements-mouvement-et-systeme-nerveux/": [
+    "Relier la commande nerveuse à la réalisation d’un mouvement.",
+    "Quel rôle joue le motoneurone dans la contraction d’un muscle ?",
+    "Il transmet le message nerveux jusqu’à la jonction neuromusculaire. Ce signal déclenche l’activation des fibres musculaires qu’il innerve."
+  ],
+  "/chapitres/29-chapitre-10-contraction-musculaire-et-apport-energetique/": [
+    "Relier contraction musculaire et apport d’énergie.",
+    "À quoi sert l’ATP lors de la contraction musculaire ?",
+    "Il permet le fonctionnement cyclique des interactions entre myosine et actine. Les cellules doivent le régénérer pendant l’effort."
+  ],
+  "/chapitres/30-chapitre-11-comportements-et-stress/": [
+    "Distinguer les réponses immédiates et prolongées au stress.",
+    "Pourquoi observe-t-on à la fois des réponses rapides et d’autres plus durables lors d’un stress ?",
+    "Les voies nerveuses et la libération d’adrénaline contribuent à une mobilisation rapide. L’axe hormonal qui mène à la libération de cortisol contribue à une réponse plus prolongée."
+  ],
+  "/chapitres/31-chapitre-07-la-plante-productrice-de-matiere-organique/": [
+    "Relier photosynthèse et production de matière organique.",
+    "D’où vient le carbone de la matière organique fabriquée par une feuille éclairée ?",
+    "Il provient du dioxyde de carbone assimilé lors de la photosynthèse. La lumière fournit l’énergie nécessaire à ce processus."
+  ],
+  "/chapitres/32-chapitre-08-reproduction-des-plantes/": [
+    "Distinguer pollinisation, fécondation et dispersion.",
+    "En quoi la pollinisation diffère-t-elle de la dispersion des graines ?",
+    "La pollinisation transporte le pollen et intervient avant la fécondation. La dispersion éloigne les graines après leur formation."
+  ],
+  "/chapitres/33-chapitre-01-l-origine-du-genome-des-individus/": [
+    "Expliquer comment la méiose et la fécondation créent de nouvelles combinaisons d’allèles.",
+    "Pourquoi deux frères et sœurs issus des mêmes parents peuvent-ils porter des combinaisons d’allèles différentes ?",
+    "La méiose produit des gamètes génétiquement différents par brassage. La fécondation associe deux gamètes parmi ceux produits par les parents."
+  ],
+  "/chapitres/34-chapitre-02-la-complexification-des-genomes/": [
+    "Identifier des mécanismes contribuant à la complexification des génomes.",
+    "Comment une duplication peut-elle conduire à une famille de gènes ?",
+    "Elle produit des copies d’un gène. Des mutations différentes peuvent s’accumuler dans les copies, qui gardent une parenté tout en pouvant acquérir des fonctions différentes."
+  ],
+  "/chapitres/35-chapitre-05-l-ineluctable-evolution-des-genomes-au-sein-des-populations/": [
+    "Distinguer sélection naturelle et dérive génétique.",
+    "Comment expliquer une variation de fréquence d’un allèle neutre dans une petite population ?",
+    "La dérive génétique suffit à l’expliquer. D’une génération à l’autre, la transmission des allèles comporte une part de hasard, particulièrement visible dans une petite population."
+  ],
+  "/chapitres/36-chapitre-01-une-longue-histoire-de-la-matiere/": [
+    "Relier des étapes de l’histoire de la matière à la formation des éléments.",
+    "Pourquoi la composition chimique de l’Univers a-t-elle évolué depuis ses débuts ?",
+    "Les premiers noyaux étaient surtout légers. Les étoiles et certains événements astrophysiques ont ensuite produit et dispersé des éléments plus lourds."
+  ],
+  "/chapitres/37-chapitre-02-le-soleil-notre-source-d-energie/": [
+    "Relier énergie solaire reçue, surface et inclinaison.",
+    "Pourquoi un même faisceau apporte-t-il moins d’énergie par mètre carré quand il arrive plus obliquement ?",
+    "La même puissance se répartit sur une surface plus grande. La puissance reçue par unité de surface diminue."
+  ],
+  "/chapitres/38-chapitre-03-la-methode-scientifique/": [
+    "Construire une démarche permettant de tester une hypothèse.",
+    "À quoi sert un témoin dans une expérience ?",
+    "Il fournit un point de comparaison dans des conditions similaires, sans le facteur testé. Une différence peut alors être reliée plus solidement à ce facteur."
+  ],
+  "/chapitres/39-chapitre-04-la-terre-un-astre-singulier/": [
+    "Relier des observations aux modèles de la Terre.",
+    "Pourquoi compare-t-on des ombres en deux lieux pour estimer la taille de la Terre ?",
+    "À un même instant, la différence d’angle des ombres renseigne sur la courbure terrestre. Associée à la distance entre les lieux, elle permet d’estimer la circonférence sous les hypothèses du modèle."
+  ],
+  "/chapitres/40-chapitre-05-son-et-musique-porteurs-d-information/": [
+    "Relier fréquence, intensité et niveau sonore.",
+    "Qu’est-ce qui change si la fréquence d’un son augmente alors que son niveau reste identique ?",
+    "La hauteur augmente. Le son devient plus aigu, tandis que le niveau sonore reste identique."
+  ],
+  "/chapitres/41-methodologie/": [
+    "Lire un graphique et justifier une interprétation.",
+    "Que faut-il préciser pour comparer deux valeurs lues sur un graphique ?",
+    "Identifie les grandeurs, les unités et les conditions de mesure. Cite ensuite les valeurs utiles et tiens compte des incertitudes si elles sont disponibles."
+  ],
+  "/chapitres/42-theme-01-science-climat-et-societe/": [
+    "Distinguer observations climatiques et choix de société.",
+    "Pourquoi séparer un constat climatique d’une décision collective ?",
+    "Le constat s’appuie sur des observations et des modèles. La décision mobilise ces résultats ainsi que des objectifs et des arbitrages sociaux."
+  ],
+  "/chapitres/43-chapitre-01-l-atmosphere-terrestre-et-la-vie/": [
+    "Relier l’évolution de l’atmosphère à l’activité du vivant.",
+    "Quel processus biologique a contribué à l’augmentation du dioxygène atmosphérique ?",
+    "La photosynthèse oxygénique libère du dioxygène. Son accumulation a aussi dépendu de l’équilibre entre production et consommation."
+  ],
+  "/chapitres/44-chapitre-02-la-complexite-du-systeme-climatique/": [
+    "Identifier une rétroaction dans le système climatique.",
+    "Pourquoi la fonte de la banquise peut-elle amplifier un réchauffement ?",
+    "L’océan sombre réfléchit moins de lumière que la glace. Quand la surface glacée diminue, davantage d’énergie est absorbée, ce qui renforce le réchauffement initial."
+  ],
+  "/chapitres/45-theme-03-une-histoire-du-vivant/": [
+    "Expliquer une parenté ou une transformation au cours de l’histoire du vivant.",
+    "Comment un caractère dérivé partagé aide-t-il à établir une parenté ?",
+    "Il peut avoir été hérité d’un ancêtre commun. On compare plusieurs caractères pour construire une hypothèse de parenté et limiter le poids des ressemblances apparues indépendamment."
+  ]
+}
