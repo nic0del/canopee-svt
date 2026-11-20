@@ -7,6 +7,7 @@ from pathlib import Path
 from shutil import copytree
 
 from chapter_paths import update_lessons
+from search_metadata import update_search_metadata
 
 
 ROOT = Path(__file__).resolve().parent
@@ -42,6 +43,7 @@ def add_base(text):
 def build():
     copytree(SOURCE, PAGES)
     update_lessons(PAGES)
+    update_search_metadata(PAGES)
     (PAGES / "favicon.png").write_bytes(base64.b64decode(FAVICON))
     for file in PAGES.rglob("*"):
         if not file.is_file() or file.relative_to(PAGES).parts[0] == "vendor":
